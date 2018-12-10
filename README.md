@@ -1,3 +1,7 @@
+# mirror of https://gitlab.com/visti_how/nrfdfu_ng
+
+Original README.md below.
+
 ## nrfdfu_ng
 
 A Linux utility for performing Bluetooth DFU firmware upgrades for Nordic Semiconductor nRF52 and probably nRF51 using a regular BT interface. This i s rewrite of [http://git.panaceas.org/cgit.cgi/nRF51/nrfdfu/](http://git.panaceas.org/cgit.cgi/nRF51/nrfdfu/) to support newer SDKs.
