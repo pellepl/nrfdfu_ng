@@ -288,7 +288,10 @@ int dfu (const char *bdaddr, uint8_t * dat,
   uint8_t retries;
   uint8_t maxRetries=3;
   uint8_t done = 0;
+
+  setvbuf(stdout, NULL, _IONBF, 0);
   
+
   ble_init();
   ble = ble_open(bdaddr);
   if (ble==0){
